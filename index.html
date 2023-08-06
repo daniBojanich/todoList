@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <h1 id='titulo'>TO-DO LIST</h1>
+            </div>
+        </header>
+        <div class="form">
+            <h5>Ingresá tu nombre</h5>
+            <div class="divinputNombre">
+                <input type="text" class="inputNombre" placeholder="nombre" id="input">
+                <button id="btn">enviar</button><br>
+                </div>
+                <div class="saludo"><h4 id="saludo"></h4></div>
+        </div>
+
+        <section class="taskContainer">
+            <h3>Marcá las tareas que ya realizaste</h3>
+            <div class="renglon"><input type="checkbox" class="checkbox" id="check"><label for="check" class="task">Desayunar ☕</label></div>
+            <div class="renglon"><input type="checkbox" class="checkbox" id="check"><label for="check" class="task">Limpiar escritorio de la pc 💻</label></div>
+            <div class="renglon"><input type="checkbox" class="checkbox" id="check"><label for="check" class="task">Ver cursos del día del WinterHack ⛄</label></div>
+            <div class="renglon"><input type="checkbox" class="checkbox" id="check"><label for="check" class="task">Almorzar 🍜</label></div>
+            <div class="renglon"><input type="checkbox" class="checkbox" id="check"><label for="check" class="task">Lavar la ropa 👚</label></div>
+            <div class="renglon"><input type="checkbox" class="checkbox" id="check"><label for="check" class="task">Ir al supermercado 🛒</label></div>
+            <div class="renglon"><input type="checkbox" class="checkbox" id="check"><label for="check" class="task">Ir al gimnasio 🏋️‍♀️</label></div>
+            <div class="renglon"><input type="checkbox" class="checkbox" id="check"><label for="check" class="task">Elongar 🤸‍♀️</label></div>
+            <div class="renglon"><input type="checkbox" class="checkbox" id="check"><label for="check" class="task">Bañarte 🚿</label></div>
+            <div class="renglon"><input type="checkbox" class="checkbox" id="check"><label for="check" class="task">Darle de comer a Oliver 🐱</label></div>
+        </section>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
