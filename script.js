@@ -4,4 +4,5 @@ let input = document.getElementById('input')
 
 btn.addEventListener('click', function(){
     let nombre = input.value;
-    saludo.innerHTML = 'Hola '+nombre+', vamos a empezar nuestro día!'})
+    if (nombre != ''){
+    saludo.innerHTML = '¡Hola '+nombre+', vamos a empezar con las tareas del día!'}})
